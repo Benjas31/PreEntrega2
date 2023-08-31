@@ -24,6 +24,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo/', saludo),
     path('diaDeHoy/', diaDeHoy),
-    path('miNombreEs/<nombre>',miNombreEs)
-
+    path('miNombreEs/<nombre>', miNombreEs),
+    path('probandoTemplates', probando_template)
 ]
